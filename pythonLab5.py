@@ -52,7 +52,7 @@ def ip_convert(ip):
     else:
         return "Invalid IP address or binary representation"
 
-# User input for IP address
+## User input for IP address
 user_ip = input("Enter an IP address or binary IP address: ")
 result = ip_convert(user_ip)
 print(result)
